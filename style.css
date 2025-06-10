@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.hero {
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 100px,
+      rgba(255,255,255,0.05) 40px,
+      rgba(255,255,255,0.05) 40px
+    );
+  background: #000;
+  color: #fff;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+
+.logo img {
+  width: 140px;
+   }
+
+.logo h2{
+  padding: 15% 0 0 0;
+}
+ 
+.form-box {
+  background: white;
+  padding: 20px;
+  border-radius: 2px;
+  color: black;
+  max-width: 280px;
+  
+    
+}
+
+.form-box h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #7a29fa;
+  color: #fff;
+  border: none;
+  width: 90%;
+  padding: 15px;
+  border-radius: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #651ede;
+}
+
+.content {
+  max-width: 55%;
+  margin: 7% ;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -60px;
+  padding: 20px;
+}
+ 
+
+.whitepaper-cover {
+  width: 60%;
+  max-width: 80%;
+  padding-top: 20%;
+  display: block;
+  margin: 0 auto 30px;
+}
+.content p{
+  font-size: 18px;
+}
+
+ul.benefits {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.benefits li {
+  margin-bottom: 15px;
+  font-size: 17px;
+  text-decoration: solid;
+}
+
+.cta {
+  margin-top: 30%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  background: #101010;
+  padding: 15px;
+  font-size: 14px;
+  color: #f7f7f7;
+}
+@media (max-width: 768px) {
+  *{
+    overflow: hidden; 
+  }
+  .hero{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form-box {
+     display: none;
+  }
+
+  .header {
+    text-align: center;
+    padding: 40px 10px;
+  }
+}

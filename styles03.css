@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #1a4b6d;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.logo {
+  max-width: 300px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #19547a;
+}
+
+.checkmark {
+  font-size: 3em;
+  color: green;
+  margin: 20px 0;
+}
+
+.message {
+  font-size: 1.1em;
+  color: #444;
+  padding: 0 10px;
+}
+
+ 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .checkmark {
+    font-size: 2.5em;
+  }
+
+  .message {
+    font-size: 1em;
+  }
+}
